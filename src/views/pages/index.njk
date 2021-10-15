@@ -1,0 +1,20 @@
+{% extends "layouts/layout.njk" %}
+
+{% block main %}
+
+	{% include "blocks/header/header.njk" %}
+	<div class="page__line page__line_dark">
+		<div class="layout__wrap">
+			{% set inject = {
+				menuBrakePoint: "768"
+			}
+ %}
+			{% include "blocks/menu/menu-main.njk" %}
+		</div>
+	</div>
+
+	{% set inject = {} %}
+
+	{% include "blocks/footer/footer.njk" %}
+
+{% endblock %}

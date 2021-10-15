@@ -1,0 +1,18 @@
+.page {
+	&_theme {
+		font: 14px / 2.14 "Montserrat", sans-serif;
+		color: $color_dark;
+		background: #fff;
+	}
+
+	&__header {
+		margin-bottom: 15px;
+	}
+
+	&__line {
+		width: 100%;
+		&_dark {
+			background-color: $color_dark;
+		}
+	}
+}
