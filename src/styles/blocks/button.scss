@@ -9,7 +9,8 @@
 	user-select: none;
 	outline: 0;
 	//background: $color_passive;
-	border: 2px solid $color_blue;
+	border: 2px solid;
+	border-color: $color_white;
 	white-space: nowrap;
 	border-radius: 3px;
 	text-decoration: none;
@@ -23,6 +24,7 @@
 		text-overflow: ellipsis;
 		vertical-align: top;
 		font-weight: 600;
+		color: $color_white;
 	}
 
 	/* HOVER */
@@ -49,15 +51,15 @@
 /* Иодификаторы КОНЕЦ */
 
 /*Виды кнопок*/
-/* .button.button_view {
-	&_s {
-		background: transparent;
+.button.button_view {
+	&_alt {
+		border-color: $color_blue;
 		& .button__text {
-			color: $color_base;
+			color: $color_blue;
 		}
 	}
 
-	&_f {
+	/* &_f {
 		& .button__text {
 			text-transform: none;
 			letter-spacing: normal;
@@ -73,8 +75,8 @@
 		& .button__text {
 			color: $color_base;
 		}
-	}
-} */
+	} */
+}
 /*Виды кнопок КОНЕЦ*/
 
 /*Размеры кнопок*/

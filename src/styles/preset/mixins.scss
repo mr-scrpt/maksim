@@ -8,3 +8,8 @@
 		transition: $obj $th, $obj2 $th, $obj3 $th;
 	}
 }
+
+@mixin box {
+	max-width: $break_bp1440;
+	margin: 0 auto;
+}

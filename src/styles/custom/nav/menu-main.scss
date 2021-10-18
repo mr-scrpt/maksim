@@ -50,6 +50,7 @@
 		@include bp768-block() {
 			font-size: 14px;
 			padding: 10px 10px;
+			@include ts(background-color);
 			&:hover {
 				background-color: $color_blue;
 			}
