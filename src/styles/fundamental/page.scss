@@ -15,4 +15,10 @@
 			background-color: $color_dark;
 		}
 	}
+
+	&__bg-banner {
+		background-image: url("../img/bg/bg_banner-main.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 }
