@@ -15,9 +15,24 @@
 			background-color: $color_dark;
 		}
 	}
+	&__section {
+		margin-bottom: 10px;
+		@include bp768-block() {
+			margin-bottom: 30px;
+		}
+		@include bp994-block() {
+			margin-bottom: 40px;
+		}
+	}
 
 	&__bg-banner {
 		background-image: url("../img/bg/bg_banner-main.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	&__bg-principle {
+		background-image: url("../img/bg/bg_principle.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 	}

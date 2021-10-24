@@ -1,5 +1,6 @@
 /* Библиотеки */
 @import "./lib/smartgrid.scss";
+@import "./lib/jquery-ui.min.css";
 
 /* INIT */
 @import "./preset/reset.scss";
@@ -28,12 +29,20 @@
 @import "./blocks/text.scss";
 @import "./blocks/relative-box.scss";
 @import "./blocks/block-s.scss";
+@import "./blocks/competence.scss";
+@import "./blocks/item-t.scss";
 
 /* Блоки Верстки */
 @import "./custom/logo.scss";
 @import "./custom/phone-list.scss";
 @import "./custom/lang.scss";
 @import "./custom/banner-main.scss";
+
+@import "./custom/principle.scss";
+@import "./custom/principle-item.scss";
+
+@import "./custom/dignity.scss";
+@import "./custom/dignity-item.scss";
 
 /* Навигация */
 @import "./custom/nav/menu-main.scss";

@@ -17,6 +17,20 @@
 	} %}
 	{% include "blocks/section/competence-section.njk" %}
 
+	{% set inject = {
+		title: 'компетенції',
+		titleView: 'alt',
+		pageSectionClass: 'page__bg-principle'
+	} %}
+	{% include "blocks/section/principle-section.njk" %}
+
+	{% set inject = {
+		title: 'Перевагы',
+		titleView: 'alt',
+		pageSectionClass: 'page__bg-principle'
+	} %}
+	{% include "blocks/section/dignity-section.njk" %}
+
 	{% set inject = {} %}
 
 	{% include "blocks/footer/footer.njk" %}

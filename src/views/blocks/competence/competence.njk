@@ -1,5 +1,10 @@
 <div class="competence">
 	<div class="competence__inner">
-	123
+		<ul class="competence__list">
+
+			{% for item in competence.competence_list %}
+				{% include "blocks/competence/competence-item.njk" %}
+			{% endfor %}
+		</ul>
 	</div>
 </div>
