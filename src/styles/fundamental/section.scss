@@ -9,8 +9,10 @@
 	}
 	&__title {
 		margin-bottom: 25px;
+		/*padding-left: 15px;*/
 		@include bp768-block() {
 			margin-bottom: 80px;
+			/*	padding-left: 40px;*/
 		}
 	}
 

@@ -25,11 +25,18 @@
 	{% include "blocks/section/principle-section.njk" %}
 
 	{% set inject = {
-		title: 'Перевагы',
+		title: 'ПРОЄКТИ',
 		titleView: 'alt',
-		pageSectionClass: 'page__bg-principle'
+		pageSectionClass: ''
 	} %}
-	{% include "blocks/section/dignity-section.njk" %}
+	{% include "blocks/section/project-section.njk" %}
+
+	{% set inject = {
+		title: 'ПЕРЕВАГИ',
+		titleView: 'alt',
+		pageSectionClass: 'page__bg-benefits'
+	} %}
+	{% include "blocks/section/benefits-section.njk" %}
 
 	{% set inject = {} %}
 

@@ -1,4 +1,4 @@
-.dignity-item {
+.project-item {
 	&__inner {
 		height: 100%;
 		display: flex;
@@ -49,6 +49,8 @@
 		margin-bottom: 25px;
 
 		@include bp768-block() {
+			font-size: 18px;
+			line-height: 26px;
 			@include ts(color);
 		}
 	}
@@ -78,31 +80,31 @@
 	}
 }
 
-.dignity-item:hover {
-	.dignity-item__inner {
+.project-item:hover {
+	.project-item__inner {
 		@include bp768-block() {
 			background-color: $color_blue;
 		}
 	}
-	.dignity-item__img {
+	.project-item__img {
 		@include bp768-block() {
 			animation: scale $th forwards;
 		}
 	}
 
-	.dignity-item__title {
+	.project-item__title {
 		@include bp768-block() {
 			color: $color_white;
 		}
 	}
 
-	.dignity-item__text {
+	.project-item__text {
 		@include bp768-block() {
 			color: $color_white;
 		}
 	}
 
-	.dignity-item__link {
+	.project-item__link {
 		@include bp768-block() {
 			color: $color_white;
 		}

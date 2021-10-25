@@ -1,0 +1,8 @@
+<div class="project">
+	<div class="project__inner">
+
+		{% for item in project.project_list %}
+			{% include "blocks/project/project-item.njk" %}
+		{% endfor %}
+	</div>
+</div>

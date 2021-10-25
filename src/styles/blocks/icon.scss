@@ -49,3 +49,15 @@
 	width: 25px;
 	height: 17px;
 }
+.icon.icon_benefits {
+	mask-image: url("../img/icon/icon_benefits.svg");
+	background-color: $color_blue;
+	mask-size: cover;
+	width: 30px;
+	height: 35px;
+
+	@include bp768-block() {
+		width: 62px;
+		height: 72px;
+	}
+}

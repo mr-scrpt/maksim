@@ -7,5 +7,6 @@ exports.data = {
 	lang: JSON.parse(readFileSync("./src/data/lang.json", "utf8")),
 	competence: JSON.parse(readFileSync("./src/data/competence.json", "utf8")),
 	principle: JSON.parse(readFileSync("./src/data/principle.json", "utf8")),
-	dignity: JSON.parse(readFileSync("./src/data/dignity.json", "utf8")),
+	project: JSON.parse(readFileSync("./src/data/project.json", "utf8")),
+	benefits: JSON.parse(readFileSync("./src/data/benefits.json", "utf8")),
 };
