@@ -61,3 +61,27 @@
 		height: 72px;
 	}
 }
+
+.icon.icon_social_insta {
+	mask-image: url("../img/icon/icon_social_insta.svg");
+	mask-repeat: no-repeat;
+	background-color: $color_white;
+	width: 24px;
+	height: 24px;
+}
+
+.icon.icon_social_fb {
+	mask-image: url("../img/icon/icon_social_fb.svg");
+	background-color: $color_white;
+	mask-repeat: no-repeat;
+	width: 13px;
+	height: 24px;
+}
+
+.icon.icon_social_mail {
+	mask-image: url("../img/icon/icon_social_mail.svg");
+	background-color: $color_white;
+	mask-repeat: no-repeat;
+	width: 27px;
+	height: 19px;
+}

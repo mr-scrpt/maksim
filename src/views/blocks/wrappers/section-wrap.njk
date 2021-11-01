@@ -2,8 +2,9 @@
 	<div class="section__inner layout__wrap {{inject.pageSectionClass}}">
 		{% if inject.title %}
 			<div class="section__title title">
-				<div class="title__main">{{inject.title}}</div>
-				<div class="title__deco"></div>
+
+				<div class="title__main{{ ' title__main_alt' if inject.titleView === 'alt'}}">{{inject.title}}</div>
+				<div class="title__deco{{ ' title__deco_alt' if inject.titleView === 'alt'}}"></div>
 			</div>
 		{% endif %}
 

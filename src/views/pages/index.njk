@@ -10,7 +10,7 @@
 		pageSectionClass: 'page__bg-banner'
 	} %}
 	{% include "blocks/section/banner-section.njk" %}
-
+	{% include "blocks/social/social-line.njk" %}
 	{% set inject = {
 		title: 'компетенції',
 		pageSectionClass: ''
@@ -26,14 +26,12 @@
 
 	{% set inject = {
 		title: 'ПРОЄКТИ',
-		titleView: 'alt',
 		pageSectionClass: ''
 	} %}
 	{% include "blocks/section/project-section.njk" %}
 
 	{% set inject = {
 		title: 'ПЕРЕВАГИ',
-		titleView: 'alt',
 		pageSectionClass: 'page__bg-benefits'
 	} %}
 	{% include "blocks/section/benefits-section.njk" %}
@@ -44,6 +42,13 @@
 		pageSectionClass: 'page__bg-how-work'
 	} %}
 	{% include "blocks/section/how-works-section.njk" %}
+
+	{% set inject = {
+		title: 'надіслати заявку',
+		titleView: 'alt',
+		pageSectionClass: 'page__bg-callback'
+	} %}
+	{% include "blocks/section/callback-section.njk" %}
 
 	{% set inject = {} %}
 
