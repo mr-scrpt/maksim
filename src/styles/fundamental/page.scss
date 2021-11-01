@@ -40,4 +40,9 @@
 	&__bg-benefits {
 		background-color: $color_gray;
 	}
+	&__bg-how-work {
+		background-image: url("../img/bg/bg_how-work.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
 }

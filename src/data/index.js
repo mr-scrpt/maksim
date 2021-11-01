@@ -9,4 +9,5 @@ exports.data = {
 	principle: JSON.parse(readFileSync("./src/data/principle.json", "utf8")),
 	project: JSON.parse(readFileSync("./src/data/project.json", "utf8")),
 	benefits: JSON.parse(readFileSync("./src/data/benefits.json", "utf8")),
+	how_work: JSON.parse(readFileSync("./src/data/how-work.json", "utf8")),
 };

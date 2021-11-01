@@ -18,7 +18,7 @@
 	{% include "blocks/section/competence-section.njk" %}
 
 	{% set inject = {
-		title: 'компетенції',
+		title: 'Наші принципи',
 		titleView: 'alt',
 		pageSectionClass: 'page__bg-principle'
 	} %}
@@ -37,6 +37,13 @@
 		pageSectionClass: 'page__bg-benefits'
 	} %}
 	{% include "blocks/section/benefits-section.njk" %}
+
+	{% set inject = {
+		title: 'Як ми працюємо',
+		titleView: 'alt',
+		pageSectionClass: 'page__bg-how-work'
+	} %}
+	{% include "blocks/section/how-works-section.njk" %}
 
 	{% set inject = {} %}
 
