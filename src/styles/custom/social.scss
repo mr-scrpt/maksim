@@ -6,11 +6,11 @@
 	&__list {
 		display: flex;
 		justify-content: center;
-		@include bp768-block() {
+		/*@include bp768-block() {
 			max-width: 300px;
 			margin-left: auto;
 			margin-right: 0;
-		}
+		}*/
 	}
 
 	&__item {

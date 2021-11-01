@@ -25,6 +25,14 @@
 		}
 	}
 
+	&__line-social {
+		@include bp768-block() {
+			max-width: 300px;
+			margin-left: auto;
+			margin-right: 0;
+		}
+	}
+
 	&__bg-banner {
 		background-image: url("../img/bg/bg_banner-main.jpg");
 		background-size: cover;

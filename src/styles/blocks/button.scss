@@ -14,7 +14,7 @@
 	white-space: nowrap;
 	border-radius: 3px;
 	text-decoration: none;
-	//@include ts(background, border-color);
+	@include ts(background-color);
 
 	& .button__text {
 		text-transform: uppercase;
@@ -25,13 +25,16 @@
 		vertical-align: top;
 		font-weight: 600;
 		color: $color_white;
+		@include ts(color);
 	}
 
 	/* HOVER */
 	&:hover {
-		//background: $color_active;
-		//border-color: $color_active;
 		cursor: pointer;
+		background-color: $color_white;
+		.button__text {
+			color: $color_blue;
+		}
 	}
 }
 
