@@ -12,4 +12,8 @@
 	&__box {
 		@include box();
 	}
+
+	&__cell {
+		@include box();
+	}
 }

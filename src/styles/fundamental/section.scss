@@ -9,6 +9,8 @@
 	}
 	&__title {
 		margin-bottom: 25px;
+		position: relative;
+		z-index: 2;
 		/*padding-left: 15px;*/
 		@include bp768-block() {
 			margin-bottom: 80px;

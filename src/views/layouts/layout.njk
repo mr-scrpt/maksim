@@ -4,8 +4,11 @@
 
 	<body class="page page_theme layout">
 		{#  {% include "blocks/common/debug.njk" %} #}
+		{% include "blocks/header/header.njk" %}
+		{% include "blocks/line/menu-line.njk" %}
 		{% block main %}{% endblock %}
 		{% include "../blocks/scripts.njk" %}
+		{% include "blocks/footer/footer.njk" %}
 	</body>
 
 </html>

@@ -2,9 +2,6 @@
 
 {% block main %}
 
-	{% include "blocks/header/header.njk" %}
-	{% include "blocks/line/menu-line.njk" %}
-
 	{% set inject = {
 		title: '',
 		pageSectionClass: 'page__bg-banner'
@@ -49,9 +46,5 @@
 		pageSectionClass: 'page__bg-callback'
 	} %}
 	{% include "blocks/section/callback-section.njk" %}
-
-	{% set inject = {} %}
-
-	{% include "blocks/footer/footer.njk" %}
 
 {% endblock %}

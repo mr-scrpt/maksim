@@ -56,13 +56,11 @@
 	}
 
 	&__more {
-		margin-top: auto;
-		margin-left: auto;
-
-		margin-right: 0;
-		margin-bottom: 0;
+		margin: auto 0 0 auto;
+		padding: 5px 10px;
 		display: flex;
 		align-items: center;
+		background-color: $color_white;
 	}
 
 	&__link {
@@ -73,11 +71,11 @@
 		}
 	}
 
-	&__icon {
+	/*&__icon {
 		@include bp768-block() {
 			@include ts(background-color);
 		}
-	}
+	}*/
 }
 
 .project-item:hover {
@@ -109,9 +107,9 @@
 			color: $color_white;
 		}
 	}
-	.icon {
+	/*	.icon {
 		@include bp768-block() {
 			background-color: $color_white;
 		}
-	}
+	}*/
 }
