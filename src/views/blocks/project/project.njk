@@ -4,5 +4,10 @@
 		{% for item in project.project_list %}
 			{% include "blocks/project/project-item.njk" %}
 		{% endfor %}
+
 	</div>
+
+	{% if inject.pagination %}
+		{% include "blocks/pagination/pagination.njk" %}
+	{% endif %}
 </div>
