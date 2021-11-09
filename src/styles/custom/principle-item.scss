@@ -2,7 +2,7 @@
 	&__inner {
 		display: flex;
 		flex-direction: column;
-		@include bp768-block() {
+		@include bp994-block() {
 			flex-direction: row;
 		}
 	}
@@ -13,13 +13,14 @@
 		justify-content: center;
 		align-items: center;
 		background: $color_dark;
+		text-align: center;
 		&:nth-child(even) {
 			background: $color_blue;
 		}
 
-		@include bp768-block() {
+		/*@include bp768-block() {
 			width: 300px;
-		}
+		}*/
 		@include bp994-block() {
 			width: 400px;
 		}
@@ -42,16 +43,16 @@
 		align-items: center;
 		background: $color_white;
 
-		@include bp768-block() {
+		/*@include bp768-block() {
 			width: calc(100% - 300px);
-		}
+		}*/
 		@include bp994-block() {
 			width: calc(100% - 400px);
 		}
 	}
 	&__about {
 		line-height: 18px;
-		padding: 10px 15px;
+		padding: 20px 15px;
 
 		@include bp768-block() {
 			font-size: 18px;
