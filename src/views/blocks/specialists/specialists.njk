@@ -1,5 +1,6 @@
 <div class="specialists">
 	<div class="specialists__inner">
+		{% set cls = cycler("fadeInLeft", "fadeInRight") %}
 		{% for item in specialists.specialists_list %}
 			{% include "blocks/specialists/specialists-item.njk" %}
 		{% endfor %}

@@ -1,7 +1,7 @@
 /* Библиотеки */
 @import "./lib/smartgrid.scss";
 @import "./lib/jquery-ui.min.css";
-
+@import "./lib/animate.css";
 /* INIT */
 @import "./preset/reset.scss";
 @import "./preset/var.scss";
@@ -9,6 +9,7 @@
 @import "./preset/text.scss";
 @import "./preset/fonts.scss";
 @import "./preset/animation.scss";
+@import "./preset/wow.scss";
 
 /* Фундоментальные Блоки */
 @import "./fundamental/page.scss";

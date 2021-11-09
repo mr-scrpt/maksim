@@ -1,0 +1,10 @@
+{% extends "layouts/layout.njk" %}
+
+{% block main %}
+	{% set inject = {
+		title: 'команда',
+		pageSectionClass: ''
+	} %}
+	{% include "blocks/section/specialists-section.njk" %}
+
+{% endblock %}
