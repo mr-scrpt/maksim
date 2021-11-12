@@ -1,4 +1,4 @@
-.project-item {
+.item-f {
 	&__inner {
 		height: 100%;
 		display: flex;
@@ -40,6 +40,7 @@
 		font-weight: 500;
 		margin-bottom: 25px;
 		@include bp768-block() {
+			font-size: 22px;
 			@include ts(color);
 		}
 	}
@@ -78,31 +79,31 @@
 	}*/
 }
 
-.project-item:hover {
-	.project-item__inner {
+.item-f:hover {
+	.item-f__inner {
 		@include bp768-block() {
 			background-color: $color_blue;
 		}
 	}
-	.project-item__img {
+	.item-f__img {
 		@include bp768-block() {
 			animation: scale $th forwards;
 		}
 	}
 
-	.project-item__title {
+	.item-f__title {
 		@include bp768-block() {
 			color: $color_white;
 		}
 	}
 
-	.project-item__text {
+	.item-f__text {
 		@include bp768-block() {
 			color: $color_white;
 		}
 	}
 
-	.project-item__link {
+	.item-f__link {
 		@include bp768-block() {
 			color: $color_white;
 		}

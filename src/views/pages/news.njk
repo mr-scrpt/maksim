@@ -1,0 +1,10 @@
+{% extends "layouts/layout.njk" %}
+
+{% block main %}
+	{% set inject = {
+		title: 'що нового',
+		pageSectionClass: ''
+	} %}
+	{% include "blocks/section/news-section.njk" %}
+
+{% endblock %}

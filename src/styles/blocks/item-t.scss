@@ -44,7 +44,6 @@
 		font-weight: 500;
 		padding-bottom: 15px;
 		text-transform: uppercase;
-
 		@include bp768-block() {
 			font-size: 24px;
 			line-height: 28px;
@@ -58,10 +57,10 @@
 		line-height: 21px;
 		padding-bottom: 15px;
 		/* flex-grow: 1; */
-		@include bp768-block() {
+		/*	@include bp768-block() {
 			font-size: 18px;
 			line-height: 27px;
-		}
+		}*/
 	}
 
 	&__control-box {

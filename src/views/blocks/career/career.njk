@@ -1,12 +1,11 @@
-<div class="project">
-	<div class="project__inner">
+<div class="career">
+	<div class="career__inner">
 		{% set inject = {
-			parentClassItem: "project__item",
+			parentClassItem: "career__item",
 			effectsClass: "wow fadeInRight",
-			aboutButton: true,
-			pathToImgFolder: "./img/project/project"
+			pathToImgFolder: "./img/career/career"
 		} %}
-		{% for item in project.project_list %}
+		{% for item in career.career_list %}
 			{% include "blocks/common/item-f.njk" %}
 		{% endfor %}
 
