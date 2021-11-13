@@ -1,4 +1,8 @@
 .layout {
+	&__flat {
+		width: 100%;
+		height: 100%;
+	}
 	&__inner {
 		position: relative;
 		min-height: 100%;

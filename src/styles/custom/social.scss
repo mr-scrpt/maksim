@@ -3,6 +3,11 @@
 		background-color: $color_dark;
 	}
 
+	&__inner {
+		display: flex;
+		justify-content: flex-end;
+	}
+
 	&__list {
 		display: flex;
 		justify-content: center;

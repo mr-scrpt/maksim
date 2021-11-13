@@ -16,6 +16,9 @@
 		}
 	}
 	&__section {
+		margin: 0;
+	}
+	&__section-m {
 		margin-bottom: 10px;
 		@include bp768-block() {
 			margin-bottom: 30px;
@@ -25,13 +28,13 @@
 		}
 	}
 
-	&__line-social {
+	/*	&__line-social {
 		@include bp768-block() {
 			max-width: 300px;
 			margin-left: auto;
 			margin-right: 0;
 		}
-	}
+	}*/
 
 	&__bg-banner {
 		background-image: url("../img/bg/bg_banner-main.jpg");

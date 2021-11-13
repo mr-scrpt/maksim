@@ -4,46 +4,54 @@
 
 	{% set inject = {
 		title: '',
-		pageSectionClass: 'page__bg-banner'
+		pageSectionClass: 'page__section',
+		sectionInnerClass: 'page__bg-banner'
 	} %}
 	{% include "blocks/section/banner-section.njk" %}
 	{% include "blocks/social/social-line.njk" %}
+
 	{% set inject = {
 		title: 'компетенції',
-		pageSectionClass: ''
+		pageSectionClass: 'page__section-m',
+		sectionInnerClass: ''
 	} %}
 	{% include "blocks/section/competence-section.njk" %}
 
 	{% set inject = {
 		title: 'Наші принципи',
 		titleView: 'alt',
-		pageSectionClass: 'page__bg-principle'
+		pageSectionClass: 'page__section-m',
+		sectionInnerClass: 'page__bg-principle'
 	} %}
 	{% include "blocks/section/principle-section.njk" %}
 
 	{% set inject = {
 		title: 'ПРОЄКТИ',
-		pageSectionClass: ''
+		pageSectionClass: 'page__section-m',
+		sectionInnerClass: ''
 	} %}
 	{% include "blocks/section/project-section.njk" %}
 
 	{% set inject = {
 		title: 'ПЕРЕВАГИ',
-		pageSectionClass: 'page__bg-benefits'
+		pageSectionClass: 'page__section-m',
+		sectionInnerClass: 'page__bg-benefits'
 	} %}
 	{% include "blocks/section/benefits-section.njk" %}
 
 	{% set inject = {
 		title: 'Як ми працюємо',
 		titleView: 'alt',
-		pageSectionClass: 'page__bg-how-work'
+		pageSectionClass: 'page__section-m',
+		sectionInnerClass: 'page__bg-how-work'
 	} %}
 	{% include "blocks/section/how-works-section.njk" %}
 
 	{% set inject = {
 		title: 'надіслати заявку',
 		titleView: 'alt',
-		pageSectionClass: 'page__bg-callback'
+		pageSectionClass: 'page__section-m',
+		sectionInnerClass: 'page__bg-callback'
 	} %}
 	{% include "blocks/section/callback-section.njk" %}
 

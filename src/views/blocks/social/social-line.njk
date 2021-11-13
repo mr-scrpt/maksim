@@ -1,11 +1,14 @@
-<div class="social">
+<section class="social page__section-m">
 	<div class="social__line">
-		<div class="social__list page__line-social">
-			{% for item in social.social_list %}
-				<a href="#" class="social__item">
-					<div class="icon icon_social_{{item}}"></div>
-				</a>
-			{% endfor %}
+		<div class="social__inner layout__wrap">
+			<div class="social__list">
+				{% for item in social.social_list %}
+					<a href="#" class="social__item">
+						<div class="icon icon_social_{{item}}"></div>
+					</a>
+				{% endfor %}
+			</div>
 		</div>
+
 	</div>
-</div>
+</section>

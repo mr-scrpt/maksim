@@ -1,11 +1,15 @@
 <div class="project">
+
 	<div class="project__inner">
+
 		{% set inject = {
 			parentClassItem: "project__item",
 			effectsClass: "wow fadeInRight",
 			aboutButton: true,
-			pathToImgFolder: "./img/project/project"
+			pathToImgFolder: "./img/project/project",
+			pagination: inject.pagination
 		} %}
+
 		{% for item in project.project_list %}
 			{% include "blocks/common/item-f.njk" %}
 		{% endfor %}

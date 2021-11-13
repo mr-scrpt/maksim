@@ -3,39 +3,45 @@
 {% block main %}
 	{% set inject = {
 		title: 'ПРО ФІРМУ',
-		pageSectionClass: ''
+		pageSectionClass: 'page__section-m',
+		sectionInnerClass: ''
 	} %}
 	{% include "blocks/section/about-section.njk" %}
 
 	{% set inject = {
 		title: 'Історія компанії',
-		pageSectionClass: ''
+		pageSectionClass: 'page__section-m',
+		sectionInnerClass: ''
 	} %}
 	{% include "blocks/section/history-section.njk" %}
 
 	{% set inject = {
 		title: 'ПЕРЕВАГИ',
-		pageSectionClass: 'page__bg-benefits'
+		pageSectionClass: 'page__section-m',
+		sectionInnerClass: 'page__bg-benefits'
 	} %}
 	{% include "blocks/section/benefits-section.njk" %}
 
 	{% set inject = {
 		title: 'Наші спеціалісти',
-		pageSectionClass: ''
+		pageSectionClass: 'page__section-m',
+		sectionInnerClass: ''
 	} %}
 	{% include "blocks/section/specialists-section.njk" %}
 
 	{% set inject = {
 		title: 'Як ми працюємо',
 		titleView: 'alt',
-		pageSectionClass: 'page__bg-how-work'
+		pageSectionClass: 'page__section-m',
+		sectionInnerClass: 'page__bg-how-work'
 	} %}
 	{% include "blocks/section/how-works-section.njk" %}
 
 	{% set inject = {
 		title: 'Наші принципи',
 		titleView: 'alt',
-		pageSectionClass: 'page__bg-principle'
+		pageSectionClass: 'page__section-m',
+		sectionInnerClass: 'page__bg-principle'
 	} %}
 	{% include "blocks/section/principle-section.njk" %}
 
