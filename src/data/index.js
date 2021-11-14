@@ -15,4 +15,5 @@ exports.data = {
 	),
 	career: JSON.parse(readFileSync("./src/data/career.json", "utf8")),
 	news: JSON.parse(readFileSync("./src/data/news.json", "utf8")),
+	contacts: JSON.parse(readFileSync("./src/data/contacts.json", "utf8")),
 };

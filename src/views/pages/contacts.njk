@@ -2,17 +2,19 @@
 
 {% block main %}
 	{% set inject = {
-		title: 'компетенції',
+		title: 'контакти',
 		pageSectionClass: 'page__section-m',
-		sectionInnerClass: ''
+		sectionInnerClass: 'page__bg-contacts',
+		itemClass: "contacts__item"
 	} %}
-	{% include "blocks/section/competence-section.njk" %}
+	{% include "blocks/section/contacts-section.njk" %}
 
 	{% set inject = {
 		title: 'надіслати заявку',
 		titleView: 'alt',
 		pageSectionClass: 'page__section-m',
 		sectionInnerClass: 'page__bg-callback'
+
 	} %}
 	{% include "blocks/section/callback-section.njk" %}
 

@@ -59,4 +59,10 @@
 	&__bg-callback {
 		background-color: $color_blue;
 	}
+
+	&__bg-contacts {
+		background-image: url("../img/bg/bg_contacts.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
 }

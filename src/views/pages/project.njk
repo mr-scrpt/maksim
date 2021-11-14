@@ -10,4 +10,12 @@
 	} %}
 	{% include "blocks/section/project-section.njk" %}
 
+	{% set inject = {
+		title: 'надіслати заявку',
+		titleView: 'alt',
+		pageSectionClass: 'page__section-m',
+		sectionInnerClass: 'page__bg-callback'
+	} %}
+	{% include "blocks/section/callback-section.njk" %}
+
 {% endblock %}
